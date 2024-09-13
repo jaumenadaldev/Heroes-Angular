@@ -15,6 +15,7 @@ export class SearchPageComponent {
   public searchInput = new FormControl('');
   public heroes: Hero[] = [];
   public selectedHero?: Hero;
+
   constructor( private heroesService: HeroesService ){}
 
   searchHero(){
